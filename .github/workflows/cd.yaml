@@ -24,4 +24,3 @@ jobs:
       - name: Deploy to Halo
         run: |
           npx halo-static-pages-deploy-cli deploy -e ${{ secrets.ENDPOINT }} -i ${{ secrets.ID }} -t ${{ secrets.PAT }} -f dist
- 
